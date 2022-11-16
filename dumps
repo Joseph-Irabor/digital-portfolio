@@ -1,0 +1,130 @@
+
+ 
+ 
+ <!-- <div class="main-cnt">
+    <h1 class="title">Projects</h1>
+
+    <div class="cards-cnt">
+
+      <div class="cards-mini">
+        <section class="img-space">
+          <img src="./media/images/jitechLAB-title-icon.png" alt="h-img" class="cards-img">
+        </section>
+        <div class="cards-title">
+          <p class="body-text project-title">P-log in systems </p>
+          <section class="status status-finished"></section>
+        </div>
+      </div>
+
+
+      <div class="cards-mini"></div>
+      <div class="cards-mini"></div>
+      <div class="cards-mini"></div>
+    </div>
+    
+    
+  </div>
+
+  CUSTOM VARIABLES
+:root{
+    --color-bg-dark:black;
+    --color-primary:#654aff;
+    --color-secondary:#f4f5f7;
+    --color-status-in-progress:rgb(131, 2, 2);
+    --color-status-finished:rgb(0, 3, 158);
+    --color-status-on-hold:rgb(3, 3, 3);
+
+    --f-size-h:40px;
+    --f-size-s-h:1.5rem;
+    --f-size-s-h-2:0.83rem;
+    --f-w-heavy:900;
+    --f-family-h:'Oswald', sans-serif;
+    --f-family-s-h: font-family: 'Roboto', sans-serif;
+    --f-family-body:font-family: 'Open Sans',sans-serif;
+     
+}
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+    border:1px solid grey;
+}
+
+body{
+    background-color: var(--color-bg-dark);
+    color: white;
+    background: url(../media/images/banner3.jpg);
+    height: 100vh;
+    
+}
+h1{
+    font-family: var(--f-family-h);
+    
+    
+}
+ h2, h3, h4,h5,h6{
+    font-family: var(--f-family-s-h);
+    
+
+}
+p,span{
+    font-family: var(--f-family-body);
+   
+}
+.body-text{
+    margin: auto;
+}
+.status-done{
+    background: var(--color-status-finished);
+}
+.status-in-progress{
+    background: var(--color-status-in-progress);
+}
+.status-On-hold{
+    background: var(--color-status-on-hold);
+}
+
+/* ================================ */
+
+/* Small devices  */
+
+.main-cnt{
+    margin: 10px;
+    padding: 10px;
+}
+.footer-cnt{
+    text-align: center;
+    color: rgb(154, 153, 153);
+    font-size: small;
+}
+.cards-cnt{
+    
+}
+.cards-mini{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.img-space{
+    margin: auto;
+    width: 80%;
+}
+.cards-img{
+    width: 100%;
+}
+
+
+    
+
+/* medium devices  */
+@media(min-width:768px){
+
+}
+
+/* Large devices  */
+@media(min-width:992px){
+
+}
+

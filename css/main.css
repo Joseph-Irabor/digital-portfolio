@@ -1,0 +1,141 @@
+@import url('costom-properties.css');
+
+
+body{
+    background-color:var(--color-bg-dark);
+    color: var(--color-secondary);
+    
+}
+
+/* COVER */
+.cover{
+    /* display:none; */
+    position: absolute;
+    margin-bottom: 10px;
+    background-color: rgb(12, 8, 8);
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../media/images/jitechLAB-title-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.home{
+    border-radius: 10px;
+    position: fixed; 
+    color: white;
+    background-color: none;
+    text-decoration: none;
+    margin: 5px; padding: 5px;
+    font-size: 30px;
+}
+
+
+
+.bg-container{
+    height: 100vh;
+    background-image: url('../media/images/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: grid; place-items: center;
+    color: var(--color-secondary);
+    color: white;
+}
+.inner{
+    display: grid;
+    place-items: center;
+    padding:var(--space-xx);
+    width: fit-content;
+        
+  
+}
+.profile-pic{
+    width:100px;
+    border-radius:100px;
+    margin-top: 20px;
+    margin: auto;
+    
+    
+}
+
+.body-text{
+    
+}
+.skill-head{
+    width: fit-content;
+    padding:var(--space-x-s);
+}
+.skills-heading{
+    text-decoration: underline;
+}
+
+
+.about,.contact,.projects{
+    display: none;
+    
+   
+}
+.menu-section{
+    margin-top: 40px;
+    text-align: center;
+    height: fit-content;
+    padding:  20px;
+    
+}
+.menu-section span{
+    display: inline-flex;
+}
+.link-generic{
+   margin: 20px;
+   display: none;
+   
+}
+.link-generic:hover{
+   background-color: rgba(78, 78, 96, 0.21);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+    transition: ease 0.5s;
+}
+.resume{
+    position: absolute; top: 0;
+}
+/* SKILLS */
+
+.skills-heading{
+    text-align: left;
+}
+/* CONTACT ME */
+.contact-icons{
+    margin-top: 60px;
+}
+.contact-icons i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+/* MY PROJECTS */
+.modal{
+    color: black;
+}
+
+
+/* COPYRIGHT */
+.copyright{
+    position: absolute; bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(154, 153, 153);
+    font-size: small;
+}
+
+/* LARGER SCREENS--Laptops and tv screens */
+@media (min-width:1100px){
+.cover{
+    display: none;
+}
+.inner{
+    width: 60%;
+}
+}
+
